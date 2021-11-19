@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\BookedRoom;
+use App\Models\Booking;
 use App\Models\Room;
 use Illuminate\Http\Request;
 
@@ -12,10 +14,19 @@ class RoomController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $rooms=Room::with('branch')->where('branch_id',1)->get();
-        dd($rooms);
+       
+        
+        return view('/room');
+    }
+
+    public function checkroom(Request $request)
+    {
+            $booking_id=Booking::where('start_date','>=',$request->start_date)->where('end_date','<=',$request->end_date)->pluck('id');
+            $room_id= BookedRoom::whereIn('booking_id',$booking_id)->pluck('room_id');
+            $rooms=Room::whereNotIn('id',$room_id)->get();
+            return view('room',compact('rooms'));
     }
 
     /**

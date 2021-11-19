@@ -2,21 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Branch;
 use Illuminate\Http\Request;
 
-class BranchController extends Controller
+class CheckOutController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request)
+    public function index()
     {
-       
-        $branches=Branch::where('hotel_id',$request->id)->get();
-        return view('/branch',compact('branches'));
+        echo "ok";
     }
 
     /**

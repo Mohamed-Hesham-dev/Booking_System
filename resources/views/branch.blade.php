@@ -103,20 +103,19 @@
 	<!-- END fh5co-page -->
 
 	</div>
+    <div>
+<nav class="navbar bg-light">
 
-	<div>
-	<nav class="navbar bg-light">
 
-		<h1>All Hotel</h1>
-		<ul>
-		    @foreach ($hotels as $hotel)
-		    <li class="nav-item">
-		        <a class="nav-link" href="{{url('hotel/'.$hotel->id)}}"><i  class="fa fa-tshirt"></i>{{$hotel->name}}</a>
-		    </li>
-		    @endforeach
-		</ul>
+    <h1>All Branch</h1>
+          <ul>
+              @foreach ($branches as $branch)
+              <li class="nav-item">
+                  <a class="nav-link" href="{{url('branch/'.$branch->id)}}"><i  class="fa fa-tshirt"></i>{{$branch->name}}</a>
+              </li>
+              @endforeach
+          </ul>
 
-	      </nav>
-	</div>
-
+      </nav>
+    </div>
 @endsection

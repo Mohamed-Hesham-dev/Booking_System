@@ -15,10 +15,12 @@ class CreateRoomsTable extends Migration
     {
         Schema::create('rooms', function (Blueprint $table) {
             $table->id();
-            $table->string('code');
-            $table->string('details');
+            $table->string('room_number');
+            $table->text('details');
+            $table->float('price');
+            $table->enum('type', ['single', 'double' ,'suite'])->nullable();
             $table->foreignId('branch_id')->nullable()->constrained()->onDelete('cascade');
-            $table->foreignId('type_id')->nullable()->constrained()->onDelete('cascade');
+            
             $table->timestamps();
         });
     }

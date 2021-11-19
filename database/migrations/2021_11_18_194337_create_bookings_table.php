@@ -15,11 +15,11 @@ class CreateBookingsTable extends Migration
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
+            $table->string('booked_name');
             $table->date('start_date');
             $table->date('end_date');
             $table->float('price');
             $table->foreignId('user_id')->nullable()->constrained()->onDelete('cascade');
-            $table->foreignId('room_id')->nullable()->constrained()->onDelete('cascade');
             $table->timestamps();
         });
     }
