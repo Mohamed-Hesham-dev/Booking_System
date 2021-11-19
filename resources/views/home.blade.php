@@ -74,7 +74,7 @@
                         <div class="flexslider js-fullheight">
                                   <ul class="slides">
                                             <li
-                                                      style="background-image: url('{{ asset('assets/images/slider1.jpg')}}');">
+                                                      style="background-image: url('{{ asset('frontend/images/slider1.jpg')}}');">
                                                       <div class="overlay-gradient"></div>
                                                       <div class="container">
                                                                 <div
@@ -100,7 +100,7 @@
                                                       </div>
                                             </li>
                                             <li
-                                                      style="background-image: url({{asset('assets/images/slider2.jpg')}});">
+                                                      style="background-image: url({{asset('frontend/images/slider2.jpg')}});">
                                                       <div class="overlay-gradient"></div>
                                                       <div class="container">
                                                                 <div
@@ -126,7 +126,7 @@
                                                       </div>
                                             </li>
                                             <li
-                                                      style="background-image: url({{asset('assets/images/slider3.jpg')}});">
+                                                      style="background-image: url({{asset('frontend/images/slider3.jpg')}});">
                                                       <div class="overlay-gradient"></div>
                                                       <div class="container">
                                                                 <div
@@ -232,7 +232,7 @@
                                   <div class="row">
                                             <div class="feature-full-1col">
                                                       <div class="image"
-                                                                style="background-image: url({{asset('assets/images/hotel_feture_1.jpg')}});">
+                                                                style="background-image: url({{asset('frontend/images/hotel_feture_1.jpg')}});">
                                                                 <div class="descrip text-center">
                                                                           <p><small>For as low
                                                                                               as</small><span>$100/night</span>
@@ -259,7 +259,7 @@
                                             <div class="feature-full-2col">
                                                       <div class="f-hotel">
                                                                 <div class="image"
-                                                                          style="background-image: url({{asset('assets/images/hotel_feture_2.jpg')}});">
+                                                                          style="background-image: url({{asset('frontend/images/hotel_feture_2.jpg')}});">
                                                                           <div class="descrip text-center">
                                                                                     <p><small>For as low
                                                                                                         as</small><span>$99/night</span>
@@ -283,7 +283,7 @@
                                                       </div>
                                                       <div class="f-hotel">
                                                                 <div class="image"
-                                                                          style="background-image: url({{asset('assets/images/hotel_feture_3.jpg')}});">
+                                                                          style="background-image: url({{asset('frontend/images/hotel_feture_3.jpg')}});">
                                                                           <div class="descrip text-center">
                                                                                     <p><small>For as low
                                                                                                         as</small><span>$99/night</span>
@@ -456,7 +456,7 @@
                                                                 <div class="container">
                                                                           <div class="row">
                                                                                     <div class="col-md-6">
-                                                                                              <img src="{{asset('assets/images/tab_img_2.jpg')}}"
+                                                                                              <img src="{{asset('frontend/images/tab_img_2.jpg')}}"
                                                                                                         class="img-responsive"
                                                                                                         alt="Image">
                                                                                     </div>
@@ -553,7 +553,7 @@
                                                                 <div class="container">
                                                                           <div class="row">
                                                                                     <div class="col-md-6">
-                                                                                              <img src="{{asset('assets/images/tab_img_3.jpg')}}"
+                                                                                              <img src="{{asset('frontend/images/tab_img_3.jpg')}}"
                                                                                                         class="img-responsive"
                                                                                                         alt="Image">
                                                                                     </div>
@@ -651,7 +651,7 @@
                                                                 <div class="container">
                                                                           <div class="row">
                                                                                     <div class="col-md-6">
-                                                                                              <img src="{{asset('assets/images/tab_img_4.jpg')}}"
+                                                                                              <img src="{{asset('frontend/images/tab_img_4.jpg')}}"
                                                                                                         class="img-responsive"
                                                                                                         alt="Image">
                                                                                     </div>
@@ -749,7 +749,7 @@
                                                                 <div class="container">
                                                                           <div class="row">
                                                                                     <div class="col-md-6">
-                                                                                              <img src="{{asset('assets/images/tab_img_5.jpg')}}"
+                                                                                              <img src="{{asset('frontend/images/tab_img_5.jpg')}}"
                                                                                                         class="img-responsive"
                                                                                                         alt="Image">
                                                                                     </div>
@@ -846,7 +846,7 @@
                                                                 <div class="container">
                                                                           <div class="row">
                                                                                     <div class="col-md-6">
-                                                                                              <img src="{{asset('assets/images/tab_img_6.jpg')}}"
+                                                                                              <img src="{{asset('frontend/images/tab_img_6.jpg')}}"
                                                                                                         class="img-responsive"
                                                                                                         alt="Image">
                                                                                     </div>
@@ -1004,7 +1004,7 @@
                                   <div class="row">
                                             <div class="col-md-4">
                                                       <div class="blog-grid" style="background-image: 
-                        url({{asset('assets/images/image-1.jpg')}});">
+                        url({{asset('frontend/images/image-1.jpg')}});">
                                                                 <div class="date text-center">
                                                                           <span>09</span>
                                                                           <small>Aug</small>
@@ -1016,7 +1016,7 @@
                                             </div>
                                             <div class="col-md-4">
                                                       <div class="blog-grid"
-                                                                style="background-image:   url({{asset('assets/images/image-2.jpg')}});">
+                                                                style="background-image:   url({{asset('frontend/images/image-2.jpg')}});">
                                                                 <div class="date text-center">
                                                                           <span>09</span>
                                                                           <small>Aug</small>
@@ -1029,7 +1029,7 @@
                                             </div>
                                             <div class="col-md-4">
                                                       <div class="blog-grid"
-                                                                style="background-image:   url({{asset('assets/images/image-3.jpg')}});">
+                                                                style="background-image:   url({{asset('frontend/images/image-3.jpg')}});">
                                                                 <div class="date text-center">
                                                                           <span>09</span>
                                                                           <small>Aug</small>

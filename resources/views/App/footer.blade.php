@@ -62,29 +62,29 @@
 <!-- END fh5co-wrapper -->
 
 <!-- Javascripts -->
-<script src="{{asset('assets/js/jquery-2.1.4.min.js')}}"></script>
+<script src="{{asset('frontend/js/jquery-2.1.4.min.js')}}"></script>
 <!-- Dropdown Menu -->
-<script src="{{asset('assets/js/hoverIntent.js')}}"></script>
-<script src="{{asset('assets/js/superfish.js')}}"></script>
+<script src="{{asset('frontend/js/hoverIntent.js')}}"></script>
+<script src="{{asset('frontend/js/superfish.js')}}"></script>
 <!-- Bootstrap -->
-<script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
 <!-- Waypoints -->
-<script src="{{asset('assets/js/jquery.waypoints.min.js')}}"></script>
+<script src="{{asset('frontend/js/jquery.waypoints.min.js')}}"></script>
 <!-- Counters -->
-<script src="{{asset('assets/js/jquery.countTo.js')}}"></script>
+<script src="{{asset('frontend/js/jquery.countTo.js')}}"></script>
 <!-- Stellar Parallax -->
-<script src="{{asset('assets/js/jquery.stellar.min.js')}}"></script>
+<script src="{{asset('frontend/js/jquery.stellar.min.js')}}"></script>
 <!-- Owl Slider -->
 <!-- // <script src="js/owl.carousel.min.js"></script> -->
 <!-- Date Picker -->
-<script src="{{asset('assets/js/bootstrap-datepicker.min.js')}}"></script>
+<script src="{{asset('frontend/js/bootstrap-datepicker.min.js')}}"></script>
 <!-- CS Select -->
-<script src="{{asset('assets/js/classie.js')}}"></script>
-<script src="{{asset('assets/js/selectFx.js')}}"></script>
+<script src="{{asset('frontend/js/classie.js')}}"></script>
+<script src="{{asset('frontend/js/selectFx.js')}}"></script>
 <!-- Flexslider -->
-<script src="{{asset('assets/js/jquery.flexslider-min.js')}}"></script>
+<script src="{{asset('frontend/js/jquery.flexslider-min.js')}}"></script>
 
-<script src="{{asset('assets/js/custom.js')}}"></script>
+<script src="{{asset('frontend/js/custom.js')}}"></script>
 
 </body>
 </html>
